@@ -12,12 +12,13 @@
 #define LOWBOUND 80
 #define HIGHBOUND 250
 
+// Code
 int holder[MOVAVGSIZE];
 int i;
 unsigned int divider;
 int analog;
 
-// Limiting function
+// Limiter
 float limit(float input){
   if(input >= HIGHBOUND){                                 // If it is above the light range, switch off
     return 0;
