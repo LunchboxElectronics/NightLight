@@ -9,8 +9,8 @@
 
 // Changeable stuff
 #define MOVAVGSIZE 64
-#define LOWBOUND 80
-#define HIGHBOUND 250
+#define LOWBOUND 50
+#define HIGHBOUND 100
 
 // Code
 int holder[MOVAVGSIZE];
